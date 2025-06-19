@@ -18,6 +18,9 @@ A beautiful and responsive Todo List application built with **React**, using the
 
 
 ---
+## 🖼️ Demo Preview
+
+![Todo App Demo](./public/todo_demo.gif)
 
 
 ---
