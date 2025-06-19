@@ -14,9 +14,11 @@ A beautiful and responsive Todo List application built with **React**, using the
 
 ---
 
-## 🖼️ Preview
+[![Live on Vercel](https://img.shields.io/badge/Live%20Demo-Vercel-000?style=for-the-badge&logo=vercel&logoColor=white)](https://todomania.vercel.app/)
 
-![Todo_Preview](image.png)
+
+---
+
 
 ---
 
