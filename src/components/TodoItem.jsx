@@ -17,7 +17,7 @@ function TodoItem({ todo }) {
 
     return (
         <div
-            className={`flex border border-black/10 rounded-lg px-3 py-1.5 gap-x-3 shadow-sm shadow-white/50 duration-300  text-black ${
+            className={`flex items-center border-black/10 rounded-lg px-3 py-1.5 gap-x-3 shadow-sm shadow-white/50 duration-300  text-black ${
                 todo.completed ? "bg-[#8fad75]" : "bg-[#9ea7e7]"
             }`}
         >
@@ -27,7 +27,7 @@ function TodoItem({ todo }) {
                 checked={todo.completed}
                 onChange={toggleCompleted}
             />
-            <input
+            <textarea
                 type="text"
                 className={`border outline-none w-full bg-transparent rounded-lg ${
                     isTodoEditable ? "border-gray-600 px-2" : "border-transparent"
