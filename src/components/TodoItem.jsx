@@ -29,12 +29,13 @@ function TodoItem({ todo }) {
             />
             <textarea
                 type="text"
-                className={`border outline-none w-full bg-transparent rounded-lg ${
+                className={` border outline-none w-full bg-transparent rounded-lg ${
                     isTodoEditable ? "border-gray-600 px-2" : "border-transparent"
-                } ${todo.completed ? "line-through" : ""}`}
+                } ${todo.completed ? "line-through" : ""} ${isTodoEditable?"bg-yellow-100":""}`}
                 value={todoMsg}
                 onChange={(e) => setTodoMsg(e.target.value)}
                 readOnly={!isTodoEditable}
+                
             />
             <button
                 className="inline-flex w-8 h-8 rounded-lg text-sm border border-black/10 justify-center items-center bg-gray-50 hover:bg-gray-100 shrink-0 disabled:opacity-50"
